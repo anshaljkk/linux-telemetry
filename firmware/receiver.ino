@@ -26,7 +26,6 @@ void loop() {
 }
 
 void process(String s) {
-    // really bad json parsing lol
     // just finding "cpu": and reading the number after it
     // should use a proper json library but ArduinoJson felt like overkill
     
